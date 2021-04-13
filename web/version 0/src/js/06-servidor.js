@@ -5,7 +5,7 @@ const cardResultElement = document.querySelector(".js-card-result");
 function handleCreateBtn(ev) {
   cardResultElement.innerHTML = "";
   ev.preventDefault();
-  const url = "https://awesome-profile-cards.herokuapp.com/card";
+  const url = "https://anafruiz-react-magicians.herokuapp.com/card";
   const data = getUserData();
   fetch(url, {
     method: "POST",
