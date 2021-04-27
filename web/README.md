@@ -9,4 +9,4 @@ Además cada componente de JS tiene su correspondiente archivo de estilos, con e
 
 El proyecto original es un generador de tarjetas virtuales que la usuaria puede personalizar con sus datos, foto y links a redes sociales. Se han mantenido todas las funcionalidades y además hemos creado nuestro propio servidor en heroku.com utilizando NODE JS y su módulo Express JS.
 
-Puedes ver nuestro proyecto haciendo click [aquí mismo](https://awesome-profile-cards-magician.herokuapp.com/)
+Puedes ver nuestro proyecto haciendo click [aquí mismo](https://anafruiz-react-magicians.herokuapp.com/)

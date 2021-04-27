@@ -1,7 +1,7 @@
 const isDevEnviroment = process.env.NODE_ENV === "development"; //Booleano
 const apiUrl = isDevEnviroment
   ? "http://localhost:3000"
-  : "https://anafruiz-react-magicians.herokuapp.com/";
+  : "https://anafruiz-react-magicians.herokuapp.com";
 
 const sendToApi = (data) => {
   return fetch(`${apiUrl}/card`, {

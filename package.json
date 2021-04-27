@@ -4,8 +4,9 @@
   "description": "project",
   "scripts": {
     "start": "cd server && npm start",
-    "build": "cd server && npm install",
-    "dev": "cd web && npm start & cd server && npm run dev"
+    "build": "npm install",
+    "dev": "cd web && npm start & cd server && npm run dev",
+    "install": "cd web && npm install && cd ../server && npm install"
   },
   "author": "team1",
   "license": "ISC",
