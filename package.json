@@ -6,6 +6,7 @@
     "start": "cd server && npm start",
     "build": "npm install",
     "dev": "cd web && npm start & cd server && npm run dev",
+    "docs": "react-scripts build && rm -rf ../server/public/ && mv build/ ../server/public/",
     "install": "cd web && npm install && cd ../server && npm install"
   },
   "author": "team1",
